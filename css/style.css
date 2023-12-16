@@ -712,3 +712,12 @@ button.accordion-button.collapsed {
   font-weight: 600;
 }
 /* Faqs End  */
+
+header {
+  display: block;
+}
+@media (max-width: 576px) {
+  header {
+    display: none;
+  }
+}
